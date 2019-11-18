@@ -1,0 +1,61 @@
+aside hr {
+    height: 1px;
+    background: #000;
+    opacity: .05;
+    border: none;
+    margin: 2rem 0;
+}
+
+.menu {
+
+}
+
+.menu .menu-element {
+    margin: 1rem 0;
+}
+
+.menu .menu-element p {
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    color: #000;
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.menu .active p {
+    color: #ec2138;
+    cursor: default;
+    border-bottom-color: #eb2037;
+}
+
+
+
+.menu-small {
+
+}
+
+.menu-small .menu-element {
+    margin: 1rem 0;
+}
+
+.menu-small .menu-element p {
+    /*display: flex;*/
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: .9rem;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+}
+
+.menu-small .active p {
+    color: #ec2138;
+    cursor: default;
+    border-bottom-color: #eb2037;
+}

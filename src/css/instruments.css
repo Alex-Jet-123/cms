@@ -1,0 +1,27 @@
+.instruments {
+
+}
+
+.instrument {
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.instrument .instrument-element {
+
+}
+
+.instrument p {
+    font-size: 1rem;
+}
+
+.instrument .first-letter {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.instrument .link-sponsor {
+    color: blue;
+    margin-top: .25rem
+}

@@ -1,0 +1,43 @@
+html, body, #root {
+    min-height: 100%;
+    height: 100%;
+}
+
+body, h1, p {
+    margin: 0;
+}
+
+body, p, h1 {
+    font-family: Helvetica,sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}

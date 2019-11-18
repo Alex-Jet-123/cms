@@ -1,0 +1,17 @@
+.thead {
+
+}
+
+.thead .instrument {
+    height: 30px;
+}
+
+.thead .instrument p {
+    color: #787878;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.thead .instrument  .sorting {
+    color: #ec2138;
+}

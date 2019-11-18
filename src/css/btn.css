@@ -1,0 +1,18 @@
+.btn {
+    font-size: 1.2rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-pink {
+    background-color: rgb(236, 33, 56);
+    color: white;
+}
+
+.btn.disabled {
+    opacity: .6;
+    cursor: default;
+}
